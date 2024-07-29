@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json()); // For parsing application/json
 app.use(cors()); // Enable CORS for all routes
 
-const DATA_FILE = path.join(__dirname, 'data.db');
+const DATA_FILE = path.join(__dirname, 'data/data.db');
 
 // In-memory data store
 let dataStore = [];
